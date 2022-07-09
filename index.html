@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form class="/currentWeather" method="post">
+      <label for="cityInput">City Name: </label>
+      <input id="cityInput" type="text" name="city" placeholder="Please enter a city...">
+      <label for="countryInput">Country Name: </label>
+      <input id="countryInput" list="countries" name="country" placeholder="Please choose a country...">
+      <datalist id="countries">
+        <option value="US"></option>
+        <option value="United Kingdom"></option>
+        <option value="Germany"></option>
+        <option value="Japan"></option>
+      </datalist>
+      <button type="submit" name="submit">Get Current Weather</button>
+    </form>
+  </body>
+</html>
